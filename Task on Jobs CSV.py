@@ -39,3 +39,18 @@ spark.readStream
 .trigger(processingTime="2 minutes")
 .table("task.emp_bronze")
 )
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC select * from task.emp_bronze
+
+# COMMAND ----------
+
+# MAGIC %python
+# MAGIC print("welcome")
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC select * from task.silver
