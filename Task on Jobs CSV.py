@@ -9,7 +9,7 @@ output_file_path="dbfs:/mnt/sanly/input/taskouput"
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC create schema if not exists task;
+# MAGIC create schema task;
 # MAGIC use task;
 
 # COMMAND ----------
