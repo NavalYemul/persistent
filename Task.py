@@ -61,4 +61,5 @@ spark.readStream
 
 # COMMAND ----------
 
-
+# MAGIC %sql
+# MAGIC select * from emp
