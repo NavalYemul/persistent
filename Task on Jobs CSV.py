@@ -48,7 +48,7 @@ spark.readStream
 # COMMAND ----------
 
 # MAGIC %python
-# MAGIC print("welcome")
+# MAGIC print("welcome to Databricsk Sessions")
 
 # COMMAND ----------
 
